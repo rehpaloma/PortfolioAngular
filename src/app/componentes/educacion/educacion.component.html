@@ -1,0 +1,24 @@
+<h2>Educacion</h2>
+<div class="botonEdit">
+    <a href="#" class="botonR"><i class="#"></i></a>
+</div>
+    <div>
+        <ul class="itemsList">
+            <li *ngFor="let educacion of educacionList">
+                <div class="dataContainer">
+                    <img class="logo-image"
+                    src="" alt=""
+                    />
+                </div>
+                <div class="listInfo">
+                    <div>
+                        <h3>{{educacion.titulo}}</h3>
+                        <p> {{educacion.escuela}} </p>
+                        <p> {{educacion.mode}} </p>
+                        <p>  <time> {{educacion.start}} </time> - <time> {{educacion.end}} </time> </p>
+                    </div>
+                </div>  
+            </li>
+        </ul>
+    </div>
+
