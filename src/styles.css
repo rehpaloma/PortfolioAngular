@@ -1,1 +1,265 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.encabezado-arriba{
+    height: 100px;
+	background:#B40404;
+    padding: 0 50px;
+    color: #F1F1D4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu a {
+    color: #F1F1D4;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0 10px;
+    transition: 0.4s;
+}
+.mostrar-menu,
+.esconder-menu {
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+    transition: 0.4s;
+}
+.mostrar-menu {
+    order: 1;
+}
+.menu a:hover,
+.mostrar-menu:hover,
+.esconder-menu:hover{
+    color: #D9D61C;
+}
+#check{
+    display: none;
+}
+#banner{
+    padding: 0px 50px;
+    background-image: url(assets/images/bannerEste.png);
+    height: 45vh;
+    background-size: cover;
+    background-position: center;
+}
+.contenido-banner{
+    position: relative;
+    color: #B40404;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+}
+.contenido-banner h2{
+    font-size: 30px;
+    font-weight: 400;
+    padding: 10px 0px;
+}
+.contenido-banner h1{
+    font-weight: 600;
+}
+.log-in{
+    text-decoration: none;
+    color: #B40404;
+    padding: 20px 40px;
+    border-radius: 35px;
+    border: 1px solid #B40404;
+    background-color: #D9D61C;
+    align-self: baseline;
+    transition: all 0.4s;
+}
+.log-in:hover{
+    background: #D9D61C;
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.logo-arg-programa{
+    height: 200px;
+    font-weight: 200px;
+    color: #D9D61C;
+    padding: 10px 0;
+}
+#personas{
+    padding: 20px 20px;
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    border: 15px solid #B40404;
+    background-color: #EAE880;
+}
+#personas div {
+    padding: 5px 5px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+#personas div h2 {
+    font-weight: 400;
+    font-size: 40px;
+    color: #B40404;
+    margin: 15px 0px;
+}
+#personas div h3 {
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.aptitudes{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.hard{
+    background-color: #F1F1D4;
+    border: 15px solid #B40404;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.soft{
+    background-color: #F1F1D4;
+    border: 15px solid #B40404;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.skill{
+    width: 160px;
+    height: 160px;
+    position: relative;
+    margin: 50px;
+}
+.outer{
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    padding: 20px;
+    box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
+                -6px -6px 10px -1px rgba(255,255,255,0.7);
+}
+.inner{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
+                inset -4px -4px 6px -1px rgba(255,255,255,0.7),
+                -0.5px -0.5px 0px rgba(255,255,255,1),
+                0.5px 0.5px 0px rgba(0,0,0,0.15),
+                0px 12px 10px -10px rgba(0,0,0,0.05);
+}
+#number {
+    font-weight: 600;
+    color: #555;
+    text-align: center;
+}
+.hyc{
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 188;
+    animation: anim 2s linear forwards;
+}
+.algoritmos{
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 283;
+    animation: anim 2s linear forwards;
+}
+.c{
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 401;
+    animation: anim 2s linear forwards;
+}
+.equipo{
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 60;
+    animation: anim 2s linear forwards;
+}
+.pensamiento-logico{
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 118;
+    animation: anim 2s linear forwards;
+}
+.responsabilidad{
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 0;
+    animation: anim 2s linear forwards;
+}
+svg{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.experiencia,
+.educacion,
+.proyectos,
+.contacto{
+    background-color: #EAE880;
+    border: 15px solid #B40404;
+}
+.datos-de-contacto{
+    height: 100px;
+	background:#B40404;
+    padding: 0 50px;
+    color: #F1F1D4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media(max-width: 768px){
+    .mostrar-menu,
+    .esconder-menu{
+        display: block;
+    }
+    .menu {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #EAE880;
+        right: -100%;
+        top: 0;
+        text-align: center;
+        padding: 100px 0px;
+        z-index: 100;
+        transition: 0.8s;
+    }
+    .menu a {
+        display: block;
+        padding: 20px;
+    }
+    .esconder-menu{
+        position: absolute;
+        top: 40px;
+        right: 40px;
+    }
+    #check:checked ~ .menu{
+        right: 0;
+    }
+    #personas{
+        flex-direction: column;
+    }
+}

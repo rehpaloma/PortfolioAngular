@@ -1,14 +1,41 @@
-
-<!-- Logotipo ArgPrograma, 
-Banner -->
-<div>
-    {{miPortfolio.curso.name}}
+<div class="encabezado">
+    <div class="encabezado-arriba">
+        <div class="logo-arg-programa">
+            <img src="assets/images/APLogo-20-20.png" alt="Logo Arg Programa"/>
+        </div>
+        <div>
+            <input type="checkbox" id="check">
+            <label for="check" class="mostrar-menu">
+                &#8801;
+            </label>
+        </div>
+        <div class="menu">
+            <nav class="menu">
+                <a href="#experiencia-laboral">EXPERIENCIA LABORAL</a>
+                <a href="#educacion">EDUCACION</a>
+                <a href="#hard-y-soft">HARD Y SOFT SKILLS</a>
+                <a href="#proyectos">PROYECTOS</a>
+                <a href="#contacto">CONTACTO</a>
+                <label for="check" class="esconder-menu">
+                    &#215;
+                </label>
+            </nav>
+        </div>
+        <div class="login-box">
+            <input type="button" value="LogIn" class="log-in">
+        </div>
+    </div>
+    <section id="banner">
+        <div class="contenido-banner">
+            <h1 class="texto1">
+                {{miPortfolio.name}}
+            </h1>
+            <h2 class="texto2">
+                {{miPortfolio.position}}
+            </h2>
+            <h2 class="texto2">
+                {{miPortfolio.ubicacion}}
+            </h2>
+        </div>
+    </section>
 </div>
-<div>
-    {{miPortfolio.terciario.name}}
-</div>
-<div class="logIn">
-    <input type="button" value="LogIn">
-</div>
-
-<!-- Mi foto con el pie de pagina? -->

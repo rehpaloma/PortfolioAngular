@@ -2,7 +2,7 @@
     "name": "Paloma Reh",
     "backImage": "#",
     "image": "#",
-    "position": "Full Stack Dev",
+    "position": "Estudiante - Full Stack Dev",
     "curso": {
         "name": "Argentina Programa",
         "img": "#"
@@ -12,31 +12,31 @@
         "img": "#"
     },
     "ubicacion": "Rosario, Argentina",
-    "about": "Estudiante del primer año de la carrera de Analista Universitario en Sistemas y realizando constantemente cursos para profundizar mis conocimientos de programacion.",
-    "experiencie": [
+    "about": "Estudiante de la carrera de Analista Universitario en Sistemas. Interesada en el diseño y desarrollo de videojuegos y en el desarrollo y mantenimiento de paginas web.",
+    "experiencia": [
         {
-            "position": "udfh",
-            "company": "kjsfgk",
+            "position": "Moza",
+            "company": "Servicio de Gastronomia - Entre Rios",
             "img": "jhf",
-            "mode": "jdf",
-            "start": "jhdsfk",
-            "end": "jkdfj"
+            "mode": "Fines de semana",
+            "start": "2014",
+            "end": "2016"
         },
         {
-            "position": "udfh",
-            "company": "kjsfgk",
+            "position": "Niñera",
+            "company": "Casas de Familia",
             "img": "jhf",
-            "mode": "jdf",
-            "start": "jhdsfk",
-            "end": "jkdfj"
+            "mode": "Media Jornada",
+            "start": "Febrero del 2021",
+            "end": "Julio del 2022"
         },
         {
-            "position": "udfh",
-            "company": "kjsfgk",
+            "position": "Recepcionista",
+            "company": "Pensionado en Rosario",
             "img": "jhf",
-            "mode": "jdf",
-            "start": "jhdsfk",
-            "end": "jkdfj"
+            "mode": "Media Jornada",
+            "start": "Julio del 2022",
+            "end": "Actualidad"
         }
     ],
     "educacion": [
@@ -71,6 +71,37 @@
             "mode": "curso",
             "start": "2019",
             "end": "2022"
+        }
+    ],
+    "aptitudesHard": [
+        {
+            "hardSkill": "HTML, CSS y JavaScript"
+        },
+        {
+            "hardSkill": "Algoritmos y Estructuras de Datos"
+        },
+        {
+            "hardSkill": "Programacion en C"
+        }
+    ],
+    "aptitudesSoft": [
+        {
+            "softSkill": "Trabajo en Equipo"
+        },
+        {
+            "softSkill": "Pensamiento Logico"
+        }
+    ],
+    "proyectos": [
+        {
+            "proyecto": "Ésta página",
+            "tecnologias": "Angular, MySql, JavaSpringBoot",
+            "img": "jhf"
+        },
+        {
+            "proyecto": "Juego 2D",
+            "tecnologias": "GodotEngine",
+            "img": "jhf"
         }
     ]
 }
